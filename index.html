@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Selector</title>
+  <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="logo-container">
+        <img src="https://toroadvertising.com/img/home/banner/logo.svg" alt="Logo" class="logo">
+      </div>
+    <div class="progress-container">
+        <h2></h2>
+      <div class="progress-bar">
+        <div class="progress-step active"></div>
+        <div class="progress-step"></div>
+        <div class="progress-step"></div>
+        
+      </div>
+    </div>
+
+    <div class="question" id="question1">
+      <h3>Choose one of the three movies</h3>
+      <div class="options">
+        <div class="option" data-value="The Gray Man">
+          <img src="https://s3-alpha-sig.figma.com/img/998c/8d5f/a0ecfa563e2b1dfce5b1bfcab18a3131?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JtzYsx-Mel79GsqsyVpsdFzf9hHTSCMPHenm-0EljATvGhxxaVjw2q4tNGPQ7PMXT6dsNM7306a2NF-e-J58biNq9PTiCr7sY7hirZk1RoxmjbiF6eBrZKYwa4x8bGEyyCuDlnqSHWCCdbqvt86d2kgntgMKkNiKrsOo7qqjGZ-~lwszXGbiyU0RRO20oyPc52UXJU2oTgkeqY7WTVbCCiXjx3UZiDaEcfWKmZ1xzNKeMiIRtbruoJqLKsXdJetJTqlZcRALJ-0wU02aK8gqGolz0ujKOeMf2E710gPdJDETwTSlX0KE7hKLIC317lIp8l6xCp9V8AV0gmdSnB7pWQ__" alt="The Gray Man" class="visible">
+        </div>
+        <div class="option" data-value="Blonde">
+          <img src="https://s3-alpha-sig.figma.com/img/2556/6737/411945632294f931a1c4b2040bd9654b?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BSllwiATRd0Bk7~FQTaoTIASzoV-Ue6-4S-nbKsha~nCsAT3LIi~EelxMvJeOAdmjOI7HW1mgpSZQIA4T3-NngS7zubA9SqO5vKgmO3P6wPdnbbHeURsbd9N4PfdhrHZ-kPabyFnC1rI-72JqOcD7dN3sd1oiZ~5RCVajSOFXwsnHTm89j8OdskV8CWbrbm4iQax2kPN-O1mbbd-Wbrzbl9c2C6zlnTVNiNZxg9DeLmUGNuIIl2vPWjFwER11t3yOtfYpKZpCKwHeSRSs-xlx0qp4NDb~Xmzfl0p~GJFnUuCMpjIGK3bgvF3NNosR~3FJ2Ixn9sQGHS~jvbzbinloQ__" alt="Blonde" class="visible">
+        </div>
+        <div class="option" data-value="Minions">
+            <img src="https://s3-alpha-sig.figma.com/img/65a5/ce87/ebcdba609f65bc0c41f267e6836c4fde?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TNnEhQkUg3WiNurn4wGmjXV6IBpKhWoCPq0~6I2YDwU4gaPicLwIim9Wg5-HI64Z40m7wXDRbfs6kxEvt0tWx3E2Vs3RmCIJBS-TbLV1u7KpDupiZODynN5iC1joRtHO7~2oYL6Xcj4Cz0-sG~TWIUu3nsGxvw-AWEApRUnThDDE1~oSwRR01nsDGruILjvpQv9saxnxcAHeDB6OJzEYlq4MHKvTjdfXXTlbeUinL-RG4wKf-pLAXgiw8lyMjmGi8t6qCTHDwyLdhgZHZXOUsCmbZYqbCZiWyb0EDB25QYVjO1xngxLYlkZhjpxmeGTWiJry50ZRuSiC3Gzt9fQkYA__" alt="Minions" class="visible">
+          </div>
+      </div>
+    </div>
+
+    <div class="question" id="question2" style="display: none;">
+      <h3>Which one do you like the most?</h3>
+      <div class="options"></div>
+    </div>
+
+    <div class="question" id="question3" style="display: none;">
+        <h3>Which one do you want to watch now?</h3>
+        <div class="options"></div>
+      </div>
+    <div class="cta">
+        <div class="cta.container">
+        <h3>WATCH NEW MOVIES FOR FREE!</h3>
+        <h4>Watch any movies online for free without ads!</h4>
+        <h4>Have fun watching your favourite movies!</h4>
+      <button id="ctaButton">Watch here!</button></div>
+    </div>
+    <footer class="footer">
+        <a href="#privacy-policy" class="footer-link">Privacy Policy</a>
+        <a href="#terms-of-use" class="footer-link">Terms of Use</a>
+        <span class="footer-text">Desarrollado por Ramiro Nahuel Baqueiro</span>
+      </footer>
+      
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
