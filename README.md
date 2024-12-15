@@ -8,6 +8,9 @@ Este es un proyecto realizado como parte de un desafío para seleccionar pelícu
 - Navegación a través de preguntas secuenciales.
 - Enlace final para ver la película seleccionada.
 
+## Enlace que me enviaron de ejemplo
+https://drive.google.com/file/d/1mg1l5uEA4iau_736nFdAS-0qa1QxlnCg/view
+
 ## Enlace al desafío
 Puedes probar la aplicación en vivo en el siguiente enlace: [Movie Selector Challenge](https://challengetororamirobaqueiro.netlify.app/).
 
